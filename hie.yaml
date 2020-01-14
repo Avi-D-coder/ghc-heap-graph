@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./app/Main.hs"
+      component: "ghc-heap-graph:app"
+    - path: "./src/"
+      component: "ghc-heap-graph:lib"
+    - path: "./test/"
+      component: "ghc-heap-graph:test"
